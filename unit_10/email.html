@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en" style="-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; font-smooth: antialiased;">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="x-apple-disable-message-reformatting">
+	<title>Pearson</title>
+	<style>
+	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic);
+	@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+		html {
+			-webkit-text-size-adjust: 100%;
+			-webkit-font-smoothing: antialiased;
+			font-smooth: antialiased;
+		}
+		body {
+			Margin: 0;
+			padding: 0;
+		}
+		img {
+			display: block;
+			border: 0;
+		}
+		h1 {
+			color: #003057;
+			font-family: 'Playfair Display','Times New Roman', Times, serif;
+			font-size: 45px;
+			line-height: 57px;
+			Margin: 5px 0 25px 0;
+			font-weight: normal;
+		}
+		h1.openSans1 {
+			color: #003057;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			font-size: 30px;
+			line-height: 38px;
+			Margin: 0 0 25px 0;
+			font-weight: normal;
+		}
+		h2 {
+			color: #003057;
+			font-family: 'Playfair Display','Times New Roman', Times, serif;
+			font-size: 40px;
+			line-height: 52px;
+			Margin: 5px 0 25px 0;
+			font-weight: normal;
+		}
+		h2.openSans2 {
+			color: #003057;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			font-size: 28px;
+			line-height: 36px;
+			Margin: 0 0 25px 0;
+			font-weight: normal;
+		}
+		h3 {
+			color: #003057;
+			font-family: 'Playfair Display','Times New Roman', Times, serif;
+			font-size: 35px;
+			line-height: 47px;
+			Margin: 5px 0 25px 0;
+			font-weight: normal;
+		}
+		h3.openSans3 {
+			color: #003057;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			font-size: 26px;
+			line-height: 34px;
+			Margin: 0 0 25px 0;
+			font-weight: normal;
+		}
+		h4 {
+			color: #003057;
+			font-family: 'Playfair Display','Times New Roman', Times, serif;
+			font-size: 31px;
+			line-height: 43px;
+			Margin: 5px 0 25px 0;
+			font-weight: normal;
+		}
+		h4.openSans4 {
+			color: #003057;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			font-size: 24px;
+			line-height: 32px;
+			Margin: 0 0 25px 0;
+			font-weight: normal;
+		}
+		h5 {
+			color: #505759;
+			font-family: 'Open Sans',Helvetica, Arial, sans-serif;
+			font-size: 18px;
+			line-height: 24px;
+			Margin: 0 0 25px 0;
+			font-weight: normal;
+		}
+		p {
+			color: #000000;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			font-size: 15px;
+			line-height: 24px;
+			Margin-bottom: 20px;
+			Margin-top: 0;
+		}
+		ul {
+			color: #000000;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			font-size: 15px;
+			line-height: 24px;
+			Margin-bottom: 0;
+			Margin-top: 0;
+			Margin-left: -10px;
+			Margin-right: 0;
+		}
+		li {
+			color: #000000;
+			font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			font-size: 15px;
+			line-height: 24px;
+			Margin-bottom: 20px;
+			Margin-top: 0;
+			Margin-left: 0;
+		}
+		a {
+			color: #005A70;
+			text-decoration: none;
+		}
+		a[x-apple-data-detectors] {
+    		color:  inherit !important;
+    		text-decoration: none !important;
+    		font-size: inherit !important;
+    		font-family: inherit !important;
+    		font-weight: inherit !important;
+    		line-height: inherit !important;
+		}
+		.headerContent {
+			padding: 5px 5px 5px 5px;
+		}
+		.mainContent {
+			padding: 25px 25px 25px 25px;
+		}
+		.topContent {
+			padding: 5px 25px 25px 25px;
+		}
+		.backgroundContent {
+			padding: 0;
+		}
+		.wrappedLink {
+    		word-break: break-word;
+		}
+		.ExternalClass * {
+			line-height: 100%
+		}
+        .deviceWidth2 > a {
+            display: inline-block;
+        }
+		@media only screen and (max-width: 600px) {
+			html {
+				-webkit-text-size-adjust: 100% !important;
+				-webkit-font-smoothing: antialiased !important;
+				font-smooth: antialiased !important;
+				}
+			table.wrapper {
+				max-width: 600px !important;
+				width: 100% !important;
+				border: 0 !important;
+			}
+            td.deviceWidth2 {
+                display: table-header-group !important;
+                width: 100% !important;
+                padding: 25px 0 0 0 !important;
+                text-align: center !important;
+            }
+            td.deviceWidth {
+                display: table-footer-group !important;
+                width: 100% !important;
+                padding: 0 !important;
+                text-align: left !important;
+            }
+            td.deviceWidth::after,
+            td.deviceWidth2::after {
+                content: '---------------------------------------------------------------------------------------------------------------------';
+                max-height: 0;
+                overflow: hidden;
+                display: block;
+                word-break: break-all;
+            }
+			.deviceHide {
+				display: none !important;
+			}
+			.deviceWidth p {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+			.deviceWidth ul li {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+			.deviceWidth ol li {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+			[class="stackParagraph"] {
+				Margin-top: 30px !important;
+			}
+			.deviceWidth2 p {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+			.deviceWidth2 ul li {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+			.deviceWidth2 ol li {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+            .deviceWidth2 > a {
+                max-width: 85%;
+                Margin-bottom: 20px;
+            }
+			.deviceWidth3 p {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+			.deviceWidth3 ul li {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+			.deviceWidth3 ol li {
+				font-size: 17px !important;
+				line-height: 26px !important;
+			}
+			.resImage {
+				height: auto !important;
+				width: 100% !important;
+			}
+			.smallImage {
+				height: auto !important;
+				width: 100% !important;
+				max-width: 350px !important;
+				display: block !important;
+				float: none !important;
+				Margin: 0 auto 20px auto !important;
+				padding: 0 !important;
+			}
+			.clickButton {
+				height: auto !important;
+				width: 85% !important;
+				Margin-left: auto !important;
+				Margin-right: auto !important;
+			}
+			.clickButton a {
+				font-size: 19px !important;
+				width: 100% !important;
+				display: block !important;
+				line-height: 1.5 !important;
+				padding: 16px 0 !important;
+			}
+			.subHeader1 {
+				font-size: 44px !important;
+				line-height: 56px !important;
+			}
+			.subHeader2 {
+				font-size: 39px !important;
+				line-height: 51px !important;
+			}
+			.subHeader3 {
+				font-size: 34px !important;
+				line-height: 46px !important;
+			}
+			.subHeader4 {
+				font-size: 29px !important;
+				line-height: 41px !important;
+			}
+			.pearsonLogo {
+				height: auto !important;
+				width: 100% !important;
+				max-width: 151px !important;
+			}
+			.clearSpace {
+				padding-top: 21px !important;
+				padding-left: 21px !important;
+			}
+			a[x-apple-data-detectors] {
+    			color:  inherit !important;
+    			text-decoration: none !important;
+    			font-size: inherit !important;
+    			font-family: inherit !important;
+    			font-weight: inherit !important;
+    			line-height: inherit !important;
+			}
+			.linkHide {
+				display: none !important;
+			}
+			.columnWidth {
+				width: 100% !important;
+			}
+			.colorBarWidth {
+				width: 100% !important;
+			}
+			.headerContent {
+			padding: 5px 25px 5px 25px !important;
+			}
+			.addMarginBottom {
+			Margin-bottom: 25px !important;
+			}
+		}
+		@media only screen and (max-width: 480px) {
+			.subHeader1 {
+				font-size: 43px !important;
+				line-height: 55px !important;
+			}
+			.subHeader2 {
+				font-size: 38px !important;
+				line-height: 50px !important;
+			}
+			.subHeader3 {
+				font-size: 32px !important;
+				line-height: 45px !important;
+			}
+			.subHeader4 {
+				font-size: 28px !important;
+				line-height: 40px !important;
+			}
+			.imageHide {
+				display: none !important;
+			}
+			.topContent {
+				padding: 5px 25px 25px 25px !important;
+			}
+			.pearsonImage {
+				height: auto !important;
+				width: 90% !important;
+				max-width: 113px !important;
+			}
+			.alwayslearningImage {
+				height: auto !important;
+				width: 90% !important;
+				max-width: 137px !important;
+			}
+		}
+    </style>
+    <!--[if mso]>
+    <style type="text/css">
+		p {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        td {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        h1 {
+			font-family: 'Times New Roman', Times, serif !important; 
+		}
+        h1.openSans1 {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        h2 {
+			font-family: 'Times New Roman', Times, serif !important; 
+		}
+        h2.openSans2 {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        h3 {
+			font-family: 'Times New Roman', Times, serif !important; 
+		}
+        h3.openSans3 {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        h4 {
+			font-family: 'Times New Roman', Times, serif !important; 
+		}
+        h4.openSans4 {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        ul {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        ol {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        li {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+        a {
+			font-family: Arial, Helvetica, sans-serif !important; 
+		}
+    </style>
+	<![endif]-->
+</head>
+<body style="Margin: 0;padding: 0;">
+<!-- // Begin Module: Standard Preheader  -->
+
+	<table class="wrapper" align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+		
+	<tr>
+	<td align="center" width="100%">&nbsp;</td></tr>
+	</table>
+	
+	<!-- // End Module: Standard Preheader  -->
+
+	<table class="wrapper" align="center" cellpadding="0" cellspacing="0" width="600" style="border: 1px solid #000000; border-collapse: collapse;">
+		
+	<tr>
+  	<td class="clearSpace" width="100%" style="background-color: #ffffff; padding-top: 22px; padding-left: 22px; padding-bottom: 22px; text-align: left;" align="left">&nbsp;</td></tr>
+		
+	<!-- if color block image used is from Pearson Brand Hub, photo credits go in ALT text-->
+		
+	<tr>
+	<td align="center" width="100%"><a alias="Top Banner" href="https://cc.readytalk.com/registration/#/?meeting=iz0w90c33tyd&campaign=ksqd43i8zod0" target="_blank" style="color: #005A70;text-decoration: none;"><img class="resImage" src="http://email.pearsoned.com/clina/clina15775-5903-basc-interventions-sept-webinar-em-ml/links/basc-hero.jpg" width="600" alt="BASC3 Kids" style="border: 0;display: inline-block;"></a>
+	</td></tr>
+		
+	<tr>
+	<td align="center" width="100%">
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+		
+	<tr>
+	<td align="center" width="100%">
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+		
+	<tr>
+	<td width="100%" align="left" class="mainContent" style="padding: 25px 25px 25px 25px;">
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		
+	<tr>
+	<td class="deviceWidth" width="100%">
+		
+	<!--Remember to put all of your CSS inline when you are finished coding - go to http://templates.mailchimp.com/resources/inline-css/ -->
+		
+	<table width="150" align="right" cellpadding="0" cellspacing="" 0 border="0" style="valign:top;">
+	<tbody>
+		
+	<tr>
+	<td>&nbsp;</td></tr>
+	</tbody>
+	</table>
+		
+	<table border="0" cellpadding="0" cellspacing="0" width="200">
+	<tbody>
+		
+	<tr>
+	<td width="100%" style="text-align: center; font-family: &#39;Open Sans&#39;, Helvetica, Arial, sans-serif; font-size: 16px; padding: 5px; background-color: #D4EAE4; color: #003057;">UPCOMING WEBINARS
+	</td></tr>
+	</tbody>
+	</table>
+		
+	<h3 class="subHeader3" style="color: #003057;font-family: 'Playfair Display','Times New Roman', Times, serif;font-size: 35px;line-height: 45px;Margin-top: 30px;Margin-bottom: 0;font-weight: normal;-webkit-font-feature-settings: 'lnum' 1;font-feature-settings: 'lnum' 1;Margin: 5px 0 25px 0;">BASC<span style="font-size: 21px; line-height: 35px; vertical-align: super;">&#8482;</span>&#8209;3 FLEX Monitor</h3>
+		
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		
+	<tr>
+	<td width="70%" class="deviceWidth">
+	<h5 style="color: #505759;font-family: 'Open Sans',Helvetica, Arial, sans-serif;font-size: 18px;line-height: 24px;Margin: 10px 0 5px 0;font-weight: normal;">Cecil Reynolds, Ph.D.</h5>
+		
+	<h5 style="color: #505759;font-family: 'Open Sans',Helvetica, Arial, sans-serif;font-size: 18px;line-height: 24px;Margin: 0 0 25px 0;font-weight: normal;">Tuesday, April 24 | 4:00 p.m. ET</h5>
+	</td></tr>
+	</table>
+		
+	<p style="color: #000000;font-family: 'Open Sans', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 24px;Margin-bottom: 20px;Margin-top: 0;">The webinar will focus on the development and clinical applications of this unique technology as a means to improve treatment outcome as well as improve programs for intervention with individuals with emotional and behavioral disorders. Specific instruction regarding the development of individualized forms by the clinician will be provided along with evaluating reliable change and the sharing of forms across clinicians within a common account system.</p>
+		
+	<table class="clickButton" border="0" cellpadding="0" cellspacing="0" width="230" style="background-color: #005A70; -webkit-border-radius: 3px; border-radius: 3px;">
+	<tbody>
+		
+	<tr>
+	<td style="color: #fff; font-family: &#39;Open Sans&#39;,Arial, Geneva, sans-serif; text-align: center;"><span class="wrappedLink" style="word-break: break-word;"><a alias="CTA Button 1" href="https://cc.readytalk.com/registration/#/?meeting=iz0w90c33tyd&campaign=ksqd43i8zod0" target="_blank" style="color: #D4EAE4; text-decoration: none; font-size: 18px; width: 100%; display: block; font-weight: 600; line-height: 60px;">Register today</a></span>
+	</td></tr>
+	</tbody>
+	</table>
+	
+		</td></tr>
+	</tbody>
+	</table>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p></td></tr>
+		
+	<tr>
+	<td class="mainContent" align="center" style="padding: 25px 25px 25px 25px;background-color: #e7e7e7;">
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+		
+	<tr>
+	<td class="deviceWidth" align="left" width="100%" valign="top">
+	<p style="Margin-bottom: 0;color: #000000;font-family: 'Open Sans', Helvetica, Arial, sans-serif;font-size: 15px;line-height: 24px;Margin-top: 0;">For more information on the BASC‑3, or any of its components, visit <strong><a alias="CTA Text 11" href="http://www.pearsonclinical.com/education/landing/basc-3.html" target="_blank" style="color: #005A70;text-decoration: none;">PearsonClinical.com/<wbr>BASC3</a></strong><a href="http://www.pearsonclinical.com/education/products/100001918/shaywit-dyslexiascreen.html" target="_blank" style="color: #005A70;text-decoration: none;"></a>.</p>
+	</td></tr>
+	</table>
+	</td></tr>
+	</table>
+	</td></tr>
+	</table>
+	</td></tr>
+	</table>
+	
+	<!-- module spacing -->
+	<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" border="0">
+		
+	<tr>
+	<td>&nbsp;</td></tr>
+	</table>
+	<!-- end of module spacing -->
+	
+	<!-- start Social -->
+	<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#cccccc;">
+		
+	<tr>
+	<td><table class="wrapper" width="600" cellpadding="0" cellspacing="0" border="0" align="center">
+		
+	<tr>
+	<td><table width="100%" cellpadding="0" cellspacing="0" border="0">
+		
+	<tr>
+	<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;padding-right:15px;font-family:'Open Sans', Arial, Helvetica, sans-serif;font-size:14px;color:#505759;text-align:left;vertical-align:middle;"><strong>Join the conversation!</strong>
+		
+	<a alias="PNA Clinical Facebook" href="https://www.facebook.com/PearsonClinicalNorthAmerica" target="_blank" style="color:#000000;text-decoration:none;"><img src="http://email.pearsoned.com/brand/templates/links/facebook.png" alt="Facebook" title="Facebook" width="30" style="border-width: 0;display: inline;vertical-align: middle;border: 0;"></a>
+		
+	<a alias="PNA Clinical Twitter" href="https://twitter.com/pnaclinical" target="_blank" style="color:#000000;text-decoration:none;"><img src="http://email.pearsoned.com/brand/templates/links/twitter.png" alt="Twitter" title="Twitter" width="30" style="border-width: 0;display: inline;vertical-align: middle;border: 0;"></a>
+		
+	<a alias="PNA Clinical LinkedIn" href="https://www.linkedin.com/company/pearson-clinical-north-america" target="_blank" style="color:#000000;text-decoration:none;"><img src="http://email.pearsoned.com/brand/templates/links/linkedin.png" alt="LinkedIn" title="LinkedIn" width="30" style="border-width: 0;display: inline;vertical-align: middle;border: 0;"></a>
+	</td></tr>
+	</table>
+	</td></tr>
+	</table>
+	<!-- end of Social -->
+		
+	<!-- Start of footer -->
+	<table width="100%" bgcolor="#505759" cellpadding="0" cellspacing="0" border="0">
+		
+	<tr>
+	<td><table class="wrapper" width="600" cellpadding="0" cellspacing="0" border="0" align="center">
+		
+	<!-- Spacing -->
+	<!-- Spacing -->
+	<!-- Spacing -->
+		
+	<tr>
+	<td width="100%" height="20">&nbsp;</td>
+    </tr>
+<!-- Spacing -->
+</table>
+</td>
+      </tr></table>
+<!-- End of footer -->
+</td></tr></table>
+
+<custom name="opencounter" type="tracking">
+</custom></body>
+</html>
